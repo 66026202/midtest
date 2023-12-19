@@ -1,0 +1,122 @@
+#p1 {
+    font-style: italic;
+    font-size: 50px;
+    background-color: rgb(197, 232, 255);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#span {
+    font-size: 40px;
+    background-color: rgb(166, 136, 250);
+    height: 50px;
+    width: 95%;
+    text-align: center;
+    display: table-cell;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+}
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  header {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, #2196F3, #673AB7);
+    color: white;
+    padding: 10px;
+  }
+ 
+  .container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+  }
+ 
+  .left-page {
+    background-color: rgb(175, 60, 60);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    
+
+  }
+ 
+  .body-page {
+    background-color: #fdaeec;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+  }
+ 
+  .right-page {
+    background-color: rgb(123, 143, 230);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+  }
+ 
+ 
+  footer {
+    text-align: center;
+    border-style: double;
+    padding: 5px;
+    margin: 5px;
+  }
+   
+  img {
+    margin: 20px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+   
+  header {
+    text-align: center;
+    background: linear-gradient(to right, #058a1b, #60e238);
+    color: white;
+    padding: 10px;
+  }
+   
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+   
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+   
+  #home,
+  #projects,
+  #contact {
+    padding: 20px;
+    margin: 5px;
+  }
